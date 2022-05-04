@@ -8,6 +8,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import Counter from './components/counter';
 // import ItemCount from './components/ItemCount/ItemCount';
 import CartWidget from './components/CartWidget/CartWidget';
+import ItemDetailContainer from './pages/ItemDetailContainer/ItemDetailContainer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Counter />
       {/* <ItemCount /> */}
       <CartWidget />
+      <ItemDetailContainer></ItemDetailContainer>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
