@@ -31,8 +31,8 @@ function NavBar(props) {
         <div className='nav-container'>
             <Link to='/'>
                 <img
-                    src='omg-logo.png'
-                    alt="OMG Comics"
+                    src='IMAGEN'
+                    alt="Tienda SBK"
                 />
             </Link>
             <ul className='nav'>
